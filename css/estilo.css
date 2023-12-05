@@ -1,0 +1,177 @@
+@media(max-width: 760px){
+	.body, .cmc, .logo, .icones, .central, .quadrados, .quadrado1,
+	.quadrado2, .quadrado3, .quadrado4, .linha1, .linha2, .final,
+	.esquerda, .meio, .direita, .l1, .cadrastop, .rodape {
+		width: 100%;
+	}
+}
+
+.body{
+	width: 100%;
+	height: 100%;
+}
+.cmc{
+	display: flex;
+	flex-direction: row;
+	height: 10vh;
+	width: 100%;
+}
+.logo{
+	flex-direction: row;
+	justify-content: flex-start;
+ 	margin-top:10px ;
+	margin-left:30px;
+	border: grey;
+  width:10%;
+  height: 5vh;
+	
+}
+.icones{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+ 	margin-top:5px;
+ 	margin-left:1150px;
+ 	margin-right:20px;
+  width:10%;
+  height:7vh;
+ 	
+}
+.central{
+  margin-top:2px;
+	justify-content: center;
+	width:99%; 
+	height:40vh;
+	
+}
+.quadrados{
+  margin-top:20px;
+  display:flex;
+	flex-direction: row;
+	width: 98% ;
+	height:20vh;
+}
+.quadrado1{
+	width:100%;
+	height:20vh;
+	margin-left: 25px;
+}
+.quadrado2{
+	width:100%;
+	height:20vh;
+	margin-left: 25px;
+}
+.quadrado3{
+	width:100%;
+	height:20vh;
+	margin-left: 25px;
+}
+
+.quadrado4{
+	width:100%;
+	height:20vh;
+	margin-left: 25px;
+}
+
+.linha1{
+	display: flex;
+  justify-content:flex-end;
+	flex-direction: row;
+	width: 10% ;
+	height:5vh;
+	margin-left: 10px;
+}
+.linha2{
+	display: flex;
+  justify-content:flex-end;
+	flex-direction: row;
+	width: 10% ;
+	height:5vh;
+	margin-left: 5px;
+}
+.final{
+  margin-top:30px;
+	width: 100%;
+	height: 80vh;
+  display:flex;
+	flex-direction: row;
+}
+.esquerda{
+	justify-content: flex-start;
+	width:60%;
+	height:60vh;
+	margin-left: 20px;
+}
+.meio{
+	display: flex;
+	flex-direction: column;
+	height: 60vh;
+	width: 30%;
+  margin-left:20px;
+}
+
+.direita{
+	justify-content: flex-end;
+	width:60%;
+	height:60vh;
+	margin-left: 20px;
+}
+.l1{
+  display:flex;
+  flex-direction:colunm;
+  justify-content:center;
+  width: 100% ;
+	height:30vh;
+	
+	margin-top: 10px;
+}
+.cadastrop{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 30%;
+  height: 60vh;
+}
+.l1{
+  display:flex;
+  flex-direction:colunm;
+  justify-content:center;
+  width: 100% ;
+	height:30vh;
+	margin-top: 10px;
+}
+.rodape{
+	width: 100%;
+	height: 20vh;
+	background-color: #FE70BD;
+	border-bottom: .5vh solid #2B4141;
+	margin-top: 5vh;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rodape .logo{
+	width: 20%;
+	height: 12vh;
+	margin-left: 5vh;
+}
+
+.rodape .icones{
+	width: 40%;
+	height: 7vh;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+.rodape .nav{
+	width: 100%;
+	height: 7vh;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
